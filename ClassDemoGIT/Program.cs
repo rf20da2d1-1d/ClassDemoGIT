@@ -6,6 +6,10 @@ namespace ClassDemoGIT
     {
         static void Main(string[] args)
         {
+            Feature2Worker worker = new Feature2Worker();
+            worker.Start();
+
+
             Console.WriteLine("Hello World!");
         }
     }
