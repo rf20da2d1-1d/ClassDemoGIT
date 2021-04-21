@@ -6,8 +6,11 @@ namespace ClassDemoGIT
     {
         static void Main(string[] args)
         {
-            Feature2Worker worker = new Feature2Worker();
-            worker.Start();
+            Feature1Worker worker1 = new Feature1Worker();
+            worker1.Start();
+
+            Feature2Worker worker2 = new Feature2Worker();
+            worker2.Start();
 
 
             Console.WriteLine("Hello World!");
